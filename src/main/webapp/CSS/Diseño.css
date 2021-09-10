@@ -1,0 +1,13 @@
+@charset "ISO-8859-1";
+#pestanas {
+   float:left;
+   width:100%;
+   line-height:normal;
+   font-size: 16px;
+   font-weight: bold;
+} 
+#pestanas ul {
+   margin:0;
+   padding:0;
+   list-style:none;
+} 
