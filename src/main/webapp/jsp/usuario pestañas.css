@@ -1,0 +1,66 @@
+body {
+    background: darkgrey;    
+}
+
+.contenedor{
+    width: 100%;
+    margin: auto;
+    background-image: url("imagenes/espcio 1.jpg");
+    color: white;
+    padding: 0px 0.5% 41% 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px 0px rgba(0, 0, 0, 0.8);
+    font-family: Comic Sans MS;
+}
+
+.contenedor .titulo{
+    font-size: 5ex;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    background: black;
+    opacity: 0.7;
+}
+
+#pestanas {
+    float: top;
+    font-size: 3ex;
+    font-weight: bold;
+}
+
+#pestanas ul{
+    margin-left: -40px;    
+}
+
+#pestanas li{
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    margin: 0px 2px -2px -0px;
+    background: dymgray;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 2px solid bisque;
+    border-bottom: dimgray;
+    padding: 0px 20px 0px 20px;
+}
+
+#pestanas a:link{
+    text-decoration: none;
+    color: white;
+}
+
+#contenidopestanas{
+    clear: both;  
+    background-image: url("imagenes/espacio 9.jpg");
+    padding: 20px 0px 20px 20px;
+    border-radius: 5px;
+    border-top-left-radius: 0px;
+    border: 2px solid bisque;
+    width: 1025px;
+}
+table{
+	border: hidden;
+	width: 60%;
+	align-items:left;
+}

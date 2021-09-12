@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+
+
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" type="text/css" href="usuario pestañas.css" />
+<script type="text/javascript"
+	src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script type="text/javascript" src="pestañas.js"></script>
+
+<title>Tienda Generica</title>
+</head>
+<body onload="javascript:cambiarPestanna(pestanas,pestana1);">
+	<script type="text/javascript" src="js/jquery-1.10.2.min.js"></script>
+	<div class="contenedor">
+		<div class="titulo">Tienda Generica</div>
+		<div id="pestanas">
+			<ul id=lista>
+				<li id="pestana1"><a
+					href='javascript:cambiarPestanna(pestanas,pestana1);'>Usuarios</a></li>
+				<li id="pestana2"><a
+					href='javascript:cambiarPestanna(pestanas,pestana2);'>Clientes</a></li>
+				<li id="pestana3"><a
+					href='javascript:cambiarPestanna(pestanas,pestana3);'>Proveedores</a></li>
+				<li id="pestana4"><a
+					href='javascript:cambiarPestanna(pestanas,pestana4);'>Productos</a></li>
+				<li id="pestana5"><a
+					href='javascript:cambiarPestanna(pestanas,pestana5);'>Ventas</a></li>
+				<li id="pestana6"><a
+					href='javascript:cambiarPestanna(pestanas,pestana6);'>Reportes</a></li>
+			</ul>
+		</div>
+
+
+
+
+		<div id="contenidopestanas">
+			<div id="cpestana1">
+				<form>
+					<table>
+						<tbody>
+
+							<tr>
+								<td><p>
+										<label>Cedula </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce tu Cedula..."
+											name="cedula usuario">
+									</p></td>
+								<td><p>
+										<label>Usuario </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce tu Usuario..."
+											name="Usuario">
+									</p></td>
+							</tr>
+
+							<tr>
+								<td><p>
+										<label>Nombre </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce tu nombre..."
+											name="nombre  usuario">
+									</p></td>
+								<td><p>
+										<label>Contraseña </label>
+									</p></td>
+								<td><p>
+										<input type="password"
+											placeholder="Introduce tu Contraseña..." name="Contraseña">
+									</p></td>
+							</tr>
+
+							<tr>
+								<td><p>
+										<label>Correo Electronico </label>
+									</p></td>
+								<td><p>
+										<input type="text"
+											placeholder="Introduce tu Correo Electronico..."
+											name="Correo Electronico  usuario">
+									</p></td>
+							</tr>
+						</tbody>
+
+					</table>
+					<table>
+						<tr>
+							<td><input type="image" src="iconos/consultar.png"
+								alt="Submit" width="48" height="48" /></td>
+							<td><input type="image" src="iconos/crear.png" alt="Submit"
+								width="48" height="48" /></td>
+							<td><input type="image" src="iconos/actualizar.png"
+								alt="Submit" width="48" height="48" /></td>
+							<td><input type="image" src="iconos/eliminar.png"
+								alt="reset" width="48" height="48" /></td>
+						</tr>
+					</table>
+				</form>
+
+
+			</div>
+			<div id="cpestana2">
+				<form>
+					<table>
+						<tbody>
+
+							<tr>
+								<td><p>
+										<label>Cedula </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce tu Cedula..."
+											name="cedula cliente">
+									</p></td>
+								<td><p>
+										<label>Telefono </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce tu telefono..."
+											name="telefono cliente">
+									</p></td>
+							</tr>
+
+							<tr>
+								<td><p>
+										<label>Nombre Completo</label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce nombre..."
+											name="nombre cliente">
+									</p></td>
+								<td><p>
+										<label>Correo Electronico </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce correo..."
+											name="correo cliente">
+									</p></td>
+							</tr>
+
+							<tr>
+								<td><p>
+										<label>Direccion </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce Direccion..."
+											name="direccion cliente">
+									</p></td>
+							</tr>
+						</tbody>
+
+					</table>
+					<table>
+						<tr>
+							<td><input type="image" src="iconos/consultar.png"
+								alt="Submit" width="48" height="48" /></td>
+							<td><input type="image" src="iconos/crear.png" alt="Submit"
+								width="48" height="48" /></td>
+							<td><input type="image" src="iconos/actualizar.png"
+								alt="Submit" width="48" height="48" /></td>
+							<td><input type="image" src="iconos/eliminar.png"
+								alt="reset" width="48" height="48" /></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<div id="cpestana3">
+				<form>
+					<table>
+						<tbody>
+
+							<tr>
+								<td><p>
+										<label>Nit </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce Nit..."
+											name="nit">
+									</p></td>
+								<td><p>
+										<label>Telefono </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce tu telefono..."
+											name="telefono proveedor">
+									</p></td>
+							</tr>
+
+							<tr>
+								<td><p>
+										<label>Nombre Proveedor</label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce nombre..."
+											name="nombre proveedor">
+									</p></td>
+								<td><p>
+										<label>Ciudad </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce ciudad..."
+											name="ciudad proveedor">
+									</p></td>
+							</tr>
+
+							<tr>
+								<td><p>
+										<label>Direccion </label>
+									</p></td>
+								<td><p>
+										<input type="text" placeholder="Introduce Direccion..."
+											name="direccion proveedor">
+									</p></td>
+							</tr>
+						</tbody>
+
+					</table>
+					<table>
+						<tr>
+							<td><input type="image" src="iconos/consultar.png"
+								alt="Submit" width="48" height="48" /></td>
+							<td><input type="image" src="iconos/crear.png" alt="Submit"
+								width="48" height="48" /></td>
+							<td><input type="image" src="iconos/actualizar.png"
+								alt="Submit" width="48" height="48" /></td>
+							<td><input type="image" src="iconos/eliminar.png"
+								alt="reset" width="48" height="48" /></td>
+						</tr>
+					</table>
+				</form>
+			</div>
+			<div id="cpestana4"></div>
+			<div id="cpestana5"></div>
+			<div id="cpestana6"></div>
+		</div>
+	</div>
+</body>
+</html>
+
